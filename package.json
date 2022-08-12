@@ -1,0 +1,25 @@
+{
+  "name": "conky",
+  "displayName": "Conky",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "conky",
+      "aliases": ["Conky", "conky"],
+      "extensions": [".conkyrc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "conky",
+      "scopeName": "source.conkyrc",
+      "path": "./syntaxes/conky.tmLanguage.json"
+    }]
+  }
+}
