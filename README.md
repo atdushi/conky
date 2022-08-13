@@ -1,3 +1,3 @@
-# VS Code extension for .conkyrc
-![alt text](Screenshot.png)
+# VSCode extension for .conkyrc
+![Syntax highlighting for .conkyrc config file](Screenshot.png)
 
