@@ -1,3 +1,3 @@
 # VSCode extension for .conkyrc
-![Syntax highlighting for .conkyrc config file](Screenshot.png)
+![Add support for .conkyrc files in Linux](images/Screenshot.png)
 
