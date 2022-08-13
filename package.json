@@ -1,25 +1,45 @@
 {
-  "name": "conky",
-  "displayName": "Conky",
-  "description": "",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.70.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "conky",
-      "aliases": ["Conky", "conky"],
-      "extensions": [".conkyrc"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "conky",
-      "scopeName": "source.conkyrc",
-      "path": "./syntaxes/conky.tmLanguage.json"
-    }]
-  }
+	"name": "conky",
+	"displayName": "Conky",
+	"description": "Syntax highlighting for .conkyrc config file",
+	"publisher": "VSCodeConkypublisher",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/atdushi/conky.git"
+	},
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "conky",
+				"aliases": [
+					"Conky",
+					"conky"
+				],
+				"extensions": [
+					".conkyrc"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "conky",
+				"scopeName": "source.conkyrc",
+				"path": "./syntaxes/conky.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "d999bb5a-e337-4bc6-a3e9-76a9e96e3041",
+		"publisherDisplayName": "VSCode Conky publisher",
+		"publisherId": "340c3ca1-502b-46e0-981e-2c52fd4eb3d0",
+		"isPreReleaseVersion": false
+	}
 }
