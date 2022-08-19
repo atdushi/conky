@@ -28,16 +28,16 @@
 				"begin": "--",
 				"beginCaptures": {
 					"0":{
-						"name": "punctuation.definition.comment2.conky"
+						"name": "punctuation.definition.comment.conky"
 					}
 				},
 				"end": "\\n",
-				"name": "comment.line.number-sign2.conky"				
+				"name": "comment.line.double-dash.conky"				
 			}]
 		},
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.conky",
+				"name": "keyword.other.conky",
 				"match": "\\b(exec|execi)\\b"
 			}]
 		},
