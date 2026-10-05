@@ -1,64 +1,62 @@
 -- Config_Settings: http://conky.sourceforge.net/config_settings.html
 -- Config_Variables: http://conky.sourceforge.net/variables.html
 
-
 conky.config = {
 
-  -- Conky --
+	-- Conky --
 
-  background = true,
-  update_interval = 1,
-  total_run_times = 0,  
-  cpu_avg_samples = 4,
-  net_avg_samples = 2,  
-  override_utf8_locale = true,  
-  double_buffer = true,
-  no_buffers = true,
-  imlib_cache_size=0,  
-  text_buffer_size = 256,
+	background = true,
+	update_interval = 1,
+	total_run_times = 0,
+	cpu_avg_samples = 4,
+	net_avg_samples = 2,
+	override_utf8_locale = true,
+	double_buffer = true,
+	no_buffers = true,
+	imlib_cache_size = 0,
+	text_buffer_size = 256,
 
-  -- Window --
+	-- Window --
 
-  own_window = true,
-  own_window_colour = '000000',
-  own_window_class = 'Conky',
-  own_window_argb_visual = true,
-  own_window_argb_count = 0,
-  own_window_argb_value = 0,
-  own_window_type = 'desktop',
-  own_window_transparent = true,
-  own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
-  border_inner_margin = 20,
-  border_width = 20,
-  minimum_height = 1080,
-  minimum_width = 360,
-  maximum_width = 360,
-  alignment = 'top_left',
-  gap_x = 45,
-  gap_y = 70,
+	own_window = true,
+	own_window_colour = "000000",
+	own_window_class = "Conky",
+	own_window_argb_visual = true,
+	own_window_argb_count = 0,
+	own_window_argb_value = 0,
+	own_window_type = "desktop",
+	own_window_transparent = true,
+	own_window_hints = "undecorated,below,sticky,skip_taskbar,skip_pager",
+	border_inner_margin = 20,
+	border_width = 20,
+	minimum_height = 1080,
+	minimum_width = 360,
+	maximum_width = 360,
+	alignment = "top_left",
+	gap_x = 45,
+	gap_y = 70,
 
-  -- Graphics -- 
+	-- Graphics --
 
-  draw_shades = false,
-  draw_outline = false,
-  draw_borders = false,
-  draw_graph_borders = false,
-  
-  -- Text --
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = false,
 
-  use_xft = true,
-  font = 'Ubuntu Regular',
-  xftalpha = 1,
-  uppercase = false,
-  pad_percents = 0,
+	-- Text --
 
-  -- Colors --
+	use_xft = true,
+	font = "Ubuntu Regular",
+	xftalpha = 1,
+	uppercase = false,
+	pad_percents = 0,
 
-  default_color = '039fab',
-  default_shade_color = '000000',
-  default_outline_color = '000000',
+	-- Colors --
 
-};
+	default_color = "039fab",
+	default_shade_color = "000000",
+	default_outline_color = "000000",
+}
 
 conky.text = [[
 
@@ -108,4 +106,4 @@ ${color 03b0d2}${font :size= 9}- ${color 03b0d2}${font :size= 9}${alignr}-
 #${color 03b0d2}${font :size= 9}-${color 03b0d2}${font :size= 9}${alignr}-
 #${color 03b0d2}${font :size= 9}-${color 03b0d2}${font :size= 9}${alignr}-
 
-]];
+]]

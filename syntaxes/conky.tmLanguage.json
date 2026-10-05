@@ -44,29 +44,23 @@
 		"config": {
 			"patterns": [
 				{
-					"name": "meta.config.conky",
-					"begin": "\\bconky\\.config\\s*=\\s*\\{",
-					"beginCaptures": {
-						"0": {
-							"name": "storage.type.conky"
-						}
-					},
-					"end": "^\\s*}\\s*;?\\s*$",
-					"patterns": [
-						{
-							"include": "#comments"
-						},
-						{
-							"include": "#strings"
-						},
-						{
-							"include": "#config-settings"
-						}
-					]
+				"name": "meta.config.conky",
+				"begin": "\\bconky\\.config\\s*=\\s*\\{",
+				"beginCaptures": {
+					"0": {
+					"name": "storage.type.conky"
+					}
+				},
+				"end": "^\\s*}\\s*;?\\s*$",
+				"patterns": [
+					{
+					"include": "source.lua"
+					}
+				]
 				},
 				{
-					"name": "storage.type.conky",
-					"match": "\\bconky\\.text\\b"
+				"name": "storage.type.conky",
+				"match": "\\bconky\\.text\\b"
 				}
 			]
 		},
