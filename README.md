@@ -2,7 +2,7 @@
 
 > 💡 **Make sure syntax highlighting is enabled correctly.**  
 > If the colors look off, click on the language mode in the bottom right corner of VS Code and ensure it is set to **Conky**.
-![Bottom bar](images/bottom.png)
+>![Bottom bar](images/bottom.png)
 
 ## Preview
 
